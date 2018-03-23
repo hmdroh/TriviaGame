@@ -1,0 +1,148 @@
+body{
+
+    background-image: url("../images/backrgound.png");
+
+}
+
+.container{
+    background-color: yellow;
+    width: 65%;
+    padding: 20px;
+    margin:  0px auto;
+}
+
+h1{
+    font-size: 45px;
+    color: midnightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    color:black;
+    text-align: center;
+    line-height: 50px;
+    
+
+
+}
+
+.questions, .results, .start{
+    /* background-color: red; */
+    /* border: 1px solid gray; */
+    padding: 20px;
+    margin: 10px auto; 
+    clear: both;
+    width: 80%;
+    position: relative;
+}
+
+.start{
+    height: 170px;
+}
+
+.results{
+    display: none; 
+    text-align: center;
+}
+
+.questions{
+     display: none;
+     text-align: center;
+}
+h2{
+    color: purple;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+h4{
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.r{
+    margin: 10px;
+
+}
+#timer{
+    display: none;
+}
+
+#submit{
+    margin: 5px;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: royalblue;
+    color: yellow;
+    /* position: absolute; */
+    display: block;
+    /* right: 10px; */
+    bottom: 1px;
+    /* float: right; */
+    margin-top: 20px;
+    
+}
+#submit:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+    
+}
+
+#timer{
+    font-size: 20px;
+    color: red;
+    text-align: center
+}
+
+#info{
+    display: none;
+}
+
+#restart{
+    margin: 5px auto;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    display: block;
+    bottom: -50px;
+    margin-top: 20px;
+  
+    
+}
+#restart:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+}
+
+#startbtn{
+   
+    margin: 5px auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    display: block;
+    bottom: -50px;
+  
+    
+}
+#startbtn:hover{
+    background-color: springgreen;
+    color: royalblue;
+    cursor: pointer;
+}
